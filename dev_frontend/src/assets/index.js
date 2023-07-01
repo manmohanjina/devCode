@@ -1,0 +1,1 @@
+export {default as Check} from "./about_us.svg"

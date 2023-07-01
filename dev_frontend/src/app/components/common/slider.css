@@ -1,0 +1,54 @@
+.main-container{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: auto;
+
+}
+.the-card{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    background-color: yellow;
+}
+
+.front-section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    backface-visibility: hidden;
+}
+.back-section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(163, 180, 180);
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+#card{
+    transform: rotateY(180deg);
+}
+
+
+.main-container-slider-box{
+    border:1px solid red;
+    width: 50%;
+    margin: auto;
+}
+.main-container-sub-div{
+    display: flex;
+    border:2px solid blue;
+     justify-content: space-around;
+}
+.btn-div{
+    border:1px solid red;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: flex-start;
+
+}

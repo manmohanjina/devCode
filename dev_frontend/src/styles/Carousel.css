@@ -1,0 +1,70 @@
+
+
+.Carousal-box{
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap:30px; */
+
+}
+.Carousal-box-content{
+font-size: 32px;
+color:#FFFFFF;
+text-align: center;
+
+}
+
+.Carousal-box-name{
+    font-size: 18px;
+    font-weight: 900;
+    color: #FFFFFF;
+
+}
+.Carousal-box-desc{
+    font-size: 18px;
+    font-weight: 900;
+margin-top: 10px;
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 976px) { 
+    .Carousal-box-content{
+        font-size: 28px;
+        
+        }
+        .Carousal-box-img{
+            margin-top: 10px;
+        }
+        .Carousal-box-name{
+            font-size: 18px;
+            font-weight: 900;
+            color: #FFFFFF;
+        
+        }
+        .Carousal-box-desc{
+        margin-top: 10px;
+        
+        }
+}
+@media only screen and (max-width: 550px) { 
+    .Carousal-box-content{
+        font-size: 24px;
+        
+        }
+        .Carousal-box-img{
+            margin-top: 20px;
+        }
+        .Carousal-box-name{
+            font-size: 16px;
+            font-weight: 900;
+            color: #FFFFFF;
+            margin-top: 10px;
+        
+        }
+        .Carousal-box-desc{
+        margin-top: 20px;
+        
+        }
+}

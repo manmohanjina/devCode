@@ -1,0 +1,22 @@
+
+export {default as About} from "./about_us_ic.svg"
+export {default as Blog } from "./blog_ic.svg"
+export {default as Contact} from "./contact_us_ic.svg"
+export {default as Dark} from "./dark_ic.svg"
+export {default as Drupal} from "./drupal_ic.svg"
+export {default as EllipsTwo} from "./ellips_2.svg"
+export {default as Ellips} from "./ellips.svg"
+export {default as HeroLight} from "./hero_illustration_light.svg"
+export {default as Hero} from "./hero_illustration.svg"
+export {default as PatternLight} from "./hero_pattern_light.svg"
+export {default as Pattern} from "./hero_pattern.svg"
+export {default as Home} from "./home_ic.svg"
+export {default as Light} from "./Light.svg"
+export {default as Services} from "./services.svg"
+export {default as Shopify} from "./shopify_ic.svg"
+export {default as Solution} from "./solution_ic.svg"
+export {default as Webflow} from "./webflow_ic.svg"
+export {default as Wix} from "./wix_ic.svg"
+export {default as Wordpress } from "./wordpress_ic.svg"
+
+

@@ -1,0 +1,5 @@
+export{default as Ellips} from "./ellips_circle.svg"
+export{default as EllipsDown} from "./ellips_down.svg"
+export{default as Hero} from "./hero_illustration.svg"
+export{default as Pattern} from "./hero_pattern.svg"
+export{default as Offering} from "./offering_illustration.svg"
